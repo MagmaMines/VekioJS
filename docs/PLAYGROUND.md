@@ -2,7 +2,7 @@
 
 Tagline: **From Idea to Internet, in minutes**
 
-Use StackBlitz or local dev with:
+Use Beyoneer.xyz or local dev with:
 - `npm run build`
 - `node --watch demo.mjs`
 
