@@ -4,6 +4,12 @@
 > **Contact**: help.magmamine@gmail.com  
 > **NPM**: `@MagmaMinesTeam/vekiojs`
 
+
+
+---
+
+<img width="2000" height="2000" alt="VekioJS Framework logo" src="https://github.com/user-attachments/assets/7a895ed7-4d74-40dc-a102-96b34175f207" />
+
 ## VekioJS 4.4.0 — Production Grade Runtime + Preset Ecosystem
 
 TypeScript-first modular framework designed for rapid prototyping and enterprise applications.
