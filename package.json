@@ -1,0 +1,73 @@
+{
+  "name": "@MagmaMinesTeam/vekiojs",
+  "version": "4.4.0",
+  "description": "TypeScript-first modular framework with concurrent scheduler, SSR, and 1800+ design presets",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MagmaMinesTeam/VekioJS.git"
+  },
+  "license": "MIT",
+  "author": "MagmaMinesTeam <help.magmamine@gmail.com>",
+  "keywords": [
+    "framework",
+    "ui",
+    "typescript",
+    "ssr",
+    "presets",
+    "design-system",
+    "react-like"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./types": {
+      "import": "./dist/types/index.js",
+      "types": "./dist/types/index.d.ts"
+    },
+    "./hooks": {
+      "import": "./dist/hooks/index.js",
+      "types": "./dist/hooks/index.d.ts"
+    },
+    "./router": {
+      "import": "./dist/router/index.js",
+      "types": "./dist/router/index.d.ts"
+    },
+    "./ssr": {
+      "import": "./dist/ssr/index.js",
+      "types": "./dist/ssr/index.d.ts"
+    },
+    "./presets": {
+      "import": "./dist/presets/index.js",
+      "types": "./dist/presets/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && npm run build:cjs",
+    "build:cjs": "node scripts/build-cjs.js",
+    "test": "npm run build && node --test tests/*.test.js",
+    "test:watch": "npm run build -- --watch",
+    "bench": "node scripts/benchmark.js",
+    "budget": "node scripts/perf-budget.js",
+    "generate": "node scripts/generate.js Button",
+    "prepublishOnly": "npm run build && npm run test && npm run budget",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}

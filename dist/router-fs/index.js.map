@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/router-fs/index.ts"],"names":[],"mappings":"AACA,MAAM,UAAU,eAAe,CAAC,IAAY;IAC1C,OAAO,IAAI;SACR,OAAO,CAAC,QAAQ,EAAE,GAAG,CAAC;SACtB,OAAO,CAAC,mBAAmB,EAAE,EAAE,CAAC;SAChC,OAAO,CAAC,UAAU,EAAE,GAAG,CAAC;SACxB,OAAO,CAAC,YAAY,EAAE,KAAK,CAAC,IAAI,GAAG,CAAC;AACzC,CAAC"}
