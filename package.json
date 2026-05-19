@@ -7,7 +7,7 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MagmaMinesTeam/VekioJS.git"
+    "url": "https://github.com/MagmaMines/VekioJS.git"
   },
   "license": "MIT",
   "author": "MagmaMinesTeam <help.magmamine@gmail.com>",
