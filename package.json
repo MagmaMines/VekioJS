@@ -1,5 +1,5 @@
 {
-  "name": "@MagmaMinesTeam/vekiojs",
+  "name": "@magmaminesteam/vekiojs",
   "version": "4.4.0",
   "description": "TypeScript-first modular framework with concurrent scheduler, SSR, and 1800+ design presets",
   "type": "module",
