@@ -56,7 +56,7 @@ npm install @MagmaMinesTeam/vekiojs
 ### Quick Start
 
 ```typescript
-import { Vekio } from '@MagmaMinesTeam/vekiojs';
+import { Vekio } from '@magmaminesteam/vekiojs';
 
 const App = () => 
   Vekio.createElement('div', { className: 'card' }, 'Hello World');
@@ -78,13 +78,13 @@ npm run budget        # Bundle size analysis
 
 ```typescript
 // Main export
-import { Vekio } from '@MagmaMinesTeam/vekiojs';
+import { Vekio } from '@magmaminesteam/vekiojs';
 
 // Feature-specific imports
-import * as hooks from '@MagmaMinesTeam/vekiojs/hooks';
-import * as router from '@MagmaMinesTeam/vekiojs/router';
-import * as ssr from '@MagmaMinesTeam/vekiojs/ssr';
-import * as presets from '@MagmaMinesTeam/vekiojs/presets';
+import * as hooks from '@magmaminesteam/vekiojs/hooks';
+import * as router from '@magmaminesteam/vekiojs/router';
+import * as ssr from '@magmaminesteam/vekiojs/ssr';
+import * as presets from '@magmaminesteam/vekiojs/presets';
 ```
 
 ### Ecosystem Notes
