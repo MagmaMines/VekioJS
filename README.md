@@ -50,7 +50,7 @@ TypeScript-first modular framework designed for rapid prototyping and enterprise
 ### Install
 
 ```bash
-npm install @MagmaMinesTeam/vekiojs
+npm install @magmaMinesTeam/vekiojs
 ```
 
 ### Quick Start
