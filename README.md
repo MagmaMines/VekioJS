@@ -2,7 +2,7 @@
 
 > Developed by **MagmaMinesTeam**  
 > **Contact**: help.magmamine@gmail.com  
-> **NPM**: `@MagmaMinesTeam/vekiojs`
+> **NPM**: `@magmaminesteam/vekiojs`
 
 
 
